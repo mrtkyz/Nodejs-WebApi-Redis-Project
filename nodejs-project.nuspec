@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>mrtkyz.nodejs-project</id>
+    <id>nodejs-project</id>
     <version>0.0.1</version>
     <title>mrtkyz.nodejs-project</title>
     <authors>mrtkyz</authors>
