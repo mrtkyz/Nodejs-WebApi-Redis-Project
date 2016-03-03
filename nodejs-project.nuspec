@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>mrtkyz.nodejs-project</id>
+    <version>0.0.1</version>
+    <title>mrtkyz.nodejs-project</title>
+    <authors>mrtkyz</authors>
+    <owners>Murat KYZ, mrtkyz company</owners>
+    <licenseUrl>http://www.mrtkyz.com</licenseUrl>
+    <projectUrl>http://www.mrtkyz.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test Description</description>
+    <summary>Test Summary</summary>
+    <releaseNotes>Release Notes here...</releaseNotes>
+    <language>tr-TR</language>
+    <tags>mrtkyz tags</tags>
+  </metadata>
+</package>
