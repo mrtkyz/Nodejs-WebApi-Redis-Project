@@ -20,8 +20,7 @@ app.get('/caches/:key', function (request, response) {
             if (res == null) {
                 response.send(404);
             }
-            response.send(403);
-            //response.end(res);
+            response.end(res);
         });
     } catch (exception) {
         response.send(404);
