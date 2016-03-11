@@ -9,7 +9,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/caches', function (request, response) {
-    console.log("444");
     client.keys('*', function(err, keys) {
         response.end(JSON.stringify(keys));
     });
@@ -21,7 +20,8 @@ app.get('/caches/:key', function (request, response) {
             if (res == null) {
                 response.send(404);
             }
-            response.end("test3: " + res);
+            response.send(403);
+            //response.end(res);
         });
     } catch (exception) {
         response.send(404);
